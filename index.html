@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <title>Personagens de Naruto</title>
+</head>
+<body>
+    <header>
+        <img src="./src/imgs/logo.png" alt="Logo do Anime Naruto" class="logo">
+    </header>
+
+    <main>
+        <section class="section personagens">
+            <h1 class="title">SELECIONE UM PERSONAGEM</h2>
+
+            <ul class="lista-personagens">
+                <li class="personagem selecionado" id="naruto" data-name="Naruto Uzumaki" data-description="É o jinchuuriki da Kurama, a Raposa de Nove Caudas, tendo uma grande quantidade de chakra. Naruto é o atual Hokage de Konoha, seu sonho de infância, e possui diversos poderes.">
+                    <img src="./src/imgs/naruto.png" alt="Personagem: Naruto Uzumaki">
+                </li>
+
+                <li class="personagem" id="sasuke" data-name="Sasuke Uchiha" data-description="Sasuke tem muito controle de Raiton (Estilo Raio) e Katon (Estilo Fogo). Graças ao seu Sharingan e seu raro Rinnegan ele possui diversos poderes. Além de ser um excelente espadachim.">
+                    <img src="./src/imgs/sasuke.png" alt="Personagem: Sasuke Uchiha">
+                </li>
+
+                <li class="personagem" id="sakura" data-name="Sakura Haruno" data-description="É uma ninja médica que possui uma força sobre-humana,  utiliza o Byakugou, um Ninjutsu Rank-S, que aumenta as habilidades físicas, como a força e a velocidade, além de curar e regenerar quem o usa. Foi aprendiz de Tsunade.">
+                    <img src="./src/imgs/sakura.png" alt="Personagem: Sakura Haruno">
+                </li>
+
+                <li class="personagem" id="kakashi" data-name="Kakashi Hatake" data-description="Conhecido como O Ninja Copiador foi o sensei do Time 7 e o sexto Hokage de Konoha. Ele tem um único Sharingan lhe dado por Obito Uchiha, seu amigo de infância, e é muito poderoso, sendo visto como um gênio.">
+                    <img src="./src/imgs/kakashi.png" alt="Personagem: Kakashi Hatake">
+                </li>
+
+                <li class="personagem" id="hinata" data-name="Hinata Hyuga" data-description="Hinata possui o Byakugan, sendo chamada de a Princesa do Byakugan, por isso ela luta usando o Punho Gentil. Hinata tem muito poder e é a maior personagem de assistência do anime.">
+                    <img src="./src/imgs/hinata.png" alt="Personagem: Hinata Hyuga">
+                </li>
+
+                <li class="personagem" id="shikamaru" data-name="Shikamaru Nara" data-description="Faz parte do trio Ino–Shika–Chō e apesar de ser muito preguiçoso é muito inteligente, possuindo mais de 200 de QI. Ele usa o jutsu de Técnica de Controle da Sombra, uma técnica secreta do clã Nara.">
+                    <img src="./src/imgs/shikamaru.png" alt="Personagem: Shikamaru Nara">
+                </li>
+
+                <li class="personagem" id="tsunade" data-name="Tsunade Senju" data-description="É a Quinta Hokage, uma Sannin e a melhor ninja-médica do mundo, utilizando o Byakugou. Ela tem muita força bruta e como neta do primeiro Hokage, muita resistência física e uma grande quantidade de chakra.">
+                    <img src="./src/imgs/tsunade.png" alt="Personagem: Tsunade Senju">
+                </li>
+
+                <li class="personagem" id="gaara" data-name="Gaara Sabaku" data-description="Foi o último jinchuuriki do Shukaku e é o atual Kazekage da Vila da Areia. Gaara pode Manipular Areia normal e a Areia de Ouro. Aliás a areia se move por vontade própria para protegê-lo.">
+                    <img src="./src/imgs/gaara.png" alt="Personagem: Gaara Sabaku">
+                </li>
+            </ul>
+        </section>
+
+        <section class="section personagem-selecionado">
+            <img class="personagem-grande" src="./src/imgs/naruto-grande.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Naruto Uzumaki</h2>
+
+                <p class="descricao-personagem" id="descricao-personagem">É o jinchuuriki da Kurama, a Raposa de Nove Caudas, tendo uma grande quantidade de chakra. Naruto é o atual Hokage de Konoha, seu sonho de infância, e possui diversos poderes.</p>
+            </div>
+        </section>
+    </main>
+    
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
